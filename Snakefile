@@ -20,7 +20,7 @@ SAMPLES = SAMPLES[0].tolist()
 
 rule all:
     input:
-#        config["outputRscript"] + "/species_melted.csv",
+        config["output_dir"] + "/plots/species_melted.csv",
         config["output_dir"] + "/plots/abundance_heatmap_species.png"
 
 
