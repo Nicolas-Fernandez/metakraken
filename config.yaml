@@ -3,7 +3,7 @@
 # **************************************
 
 # List of files
-list_files: "utils/mock_files.txt"
+list_files: "utils/list_files.txt"
 
 output_dir: "output_mock_t"
 
